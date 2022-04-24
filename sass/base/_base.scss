@@ -13,13 +13,13 @@
   padding: 0;
   box-sizing: border-box;
   // Global Clearfixing
-  @if $grid-type == 'float'{
-    &:after{
-      clear: both;
-      content: "";
-      display: block;
-    }
-  }
+  // @if $grid-type == 'float'{
+  //   &:after{
+  //     clear: both;
+  //     content: "";
+  //     display: block;
+  //   }
+  // }
 }
 
 // Base Code
@@ -30,6 +30,7 @@ body{
   -webkit-font-smoothing: antialiased;
   color: $color-text;
   font-family: $font-family--primary;
+  font-weight: $font-regular;
   text-rendering: optimizeLegibility;
 }
 a{

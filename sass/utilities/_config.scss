@@ -11,8 +11,19 @@ $base__font-size: 16px;
 $base__line: 24px;
 
 //Font Stacks
+@import url('../fonts/tisa-sans-pro/styles.css');
 
-//$font-url--google : abc;
+// Font Variables
+$Tisa-sans-pro: 'Tisa Sans Pro';
+
+// Font Weights
+$font-light: 300;
+$font-regular: 400;
+$font-medium: 500;
+$font-extrabold: 800;
+$font-black: 900;
+
+// $font-url--google : abc;
 
 // $typefaces
 // Configuration of webfonts imports.
@@ -29,21 +40,22 @@ $base__line: 24px;
 //  ),
 //);
 
+$font-family-sans: $Tisa-sans-pro;
 $font-family-sans-fallback: 'Arial', sans-serif;
-$font-family-sans: 'Source Sans Pro', 'Helvetica Neue', 'Helvetica', $font-family-sans-fallback;
 $font-family-serif: 'Georgia', 'Cambria', 'Times New Roman', 'Times', serif;
 $font-family-monospace: 'Inconsolata', 'Menlo', 'Consolas', 'Bitstream Vera Sans Mono', 'Courier', monospace;
 $font-family--primary : $font-family-sans;
 $font-family--secondary : $font-family-sans;
 
 //Colors
-$white: #fff;
+$brown: #443636;
+$white: #ffff;
 $black: #000;
-$gray: #c7c7c7;
+$yellow: #f6914e;
+$gray: #a79886;
 $red: #D24D57;
 $blue: #3A539B;
 $light-blue: #009BDE;
-$yellow: #F7CA18;
 $green: #36D7B7;
 
 //Message Colors
@@ -67,6 +79,15 @@ $ui-colors: (
 
 //Color Palette
 $palettes: (
+  brown-shades: (
+    base: $brown,
+    brown-light: #fcf4ef,
+    brown-lighter: #fbf4ee,
+    yellowy-light: #faead8,
+    cream: #fbf3ee,
+    lightest: #fefaf8,
+    dark: #A7836D
+  ),
   gray-shades: (
     base: $gray,
     dark: darken($gray,20%),
@@ -97,7 +118,7 @@ $secondary-color: $black;
 $accent-color: $gray;
 $shadow-color: rgba($black, .2);
 $border-color: $gray;
-$color-text: $black;
+$color-text: $brown;
 $color-link: $blue;
 
 //Path to Assets

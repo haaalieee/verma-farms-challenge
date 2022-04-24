@@ -1,0 +1,41 @@
+.card {
+    grid-auto-flow: row;
+    justify-content: space-between;
+    grid-template-columns: unset;
+    grid-gap: rem(24px);
+    display: grid;
+   
+    @include e(item) {
+        background-color: $white;
+        max-width: 332px;
+        border-radius: 30px;
+        display: grid;
+        grid-template-rows: 1fr 90px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        p {
+            color: $brown;
+            font-size: rem(21px);
+            font-weight: $font-regular;
+            line-height: rem(31px);
+            max-width: 227px;
+            margin: 0 auto;
+        }
+    }
+
+    @include e(img) {
+        overflow: hidden;
+        border-radius: 30px 30px 0 0;
+        width: auto;
+    }
+
+    @include mq(md){ 
+        grid-auto-flow: column;
+        max-width: 1094px;
+        justify-content: space-between;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: rem(70px);
+    }
+}

@@ -18,6 +18,14 @@
   position: absolute;
   width: 1px;
 }
+
+.separator {
+  background-color: $yellow;
+  margin: 11px 0;
+  height: 2px;
+  border: none;
+}
+
 %clearfix-none{
   display: inherit;
 }
@@ -27,9 +35,9 @@
   position: absolute;
 }
 %shadow{
-  -webkit-box-shadow: 0px 8px 12px -6px transparentize($black, 0.8);
-  -moz-box-shadow: 0px 8px 12px -6px transparentize($black, 0.8);
-  box-shadow: 0px 8px 12px -6px transparentize($black, 0.8);
+  -webkit-box-shadow: 1px 20px 25px 1px transparentize($black, 0.8);
+  -moz-box-shadow: 1px 20px 25px 1px transparentize($black, 0.8);
+  box-shadow: 1px 20px 25px 1px transparentize($black, 0.8);
 }
 %ellipsis{
   overflow: hidden;

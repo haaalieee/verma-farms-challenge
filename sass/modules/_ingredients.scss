@@ -1,0 +1,31 @@
+.ingredients {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 2fr minmax(0, 1fr);
+    grid-auto-flow: column;
+    grid-gap: 5rem;
+    align-items: center;
+    
+    @include e(item) {
+        h4 {
+            font-size: rem(17px);
+            line-height: rem(25px);
+            font-weight: $font-medium;
+        }
+
+        p {
+            font-size: rem(18px);
+            line-height: rem(26px);
+            font-weight: $font-light;
+        }
+    }
+
+    @include e(masterpiece) {
+        width: 435px;
+        height: auto;
+    }
+
+    @include e(icon) {
+        width: 435px;
+        height: auto;
+    }
+}

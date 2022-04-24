@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Tisa Sans Pro';
+    src: url('TisaSansPro-ExtraBold.eot');
+    src: local('Tisa Sans Pro Extra Bold'), local('TisaSansPro-ExtraBold'),
+        url('TisaSansPro-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('TisaSansPro-ExtraBold.woff2') format('woff2'),
+        url('TisaSansPro-ExtraBold.woff') format('woff'),
+        url('TisaSansPro-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tisa Sans Pro';
+    src: url('TisaSansPro-Medium.eot');
+    src: local('Tisa Sans Pro Medium'), local('TisaSansPro-Medium'),
+        url('TisaSansPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('TisaSansPro-Medium.woff2') format('woff2'),
+        url('TisaSansPro-Medium.woff') format('woff'),
+        url('TisaSansPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tisa Sans Pro';
+    src: url('./TisaSansPro-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tisa Sans Pro';
+    src: url('TisaSansPro-Regular.eot');
+    src: local('Tisa Sans Pro Regular'), local('TisaSansPro-Regular'),
+        url('TisaSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('TisaSansPro-Regular.woff2') format('woff2'),
+        url('TisaSansPro-Regular.woff') format('woff'),
+        url('TisaSansPro-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tisa Sans Pro';
+    src: url('TisaSansPro-Light.eot');
+    src: local('Tisa Sans Pro Light'), local('TisaSansPro-Light'),
+        url('TisaSansPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('TisaSansPro-Light.woff2') format('woff2'),
+        url('TisaSansPro-Light.woff') format('woff'),
+        url('TisaSansPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
